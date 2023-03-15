@@ -2,6 +2,14 @@
 
 #### 使用
 
+安装:
+```sh
+npm i -g an-command
+
+or
+
+yarn global add an-command
+```
 
 用法:  
 ```sh

@@ -6,10 +6,17 @@
 This is a command-line tool written in `typescript` and `node` that can be used as a plug-in to import and extend your own commands
 
 
+Install:
+```sh
+npm i -g an-command
 
+or
 
+yarn global add an-command
+```
 
 Usage:
+
 
 ```sh
 an command [args]

@@ -1,17 +1,31 @@
 {
-  "name": "an",
+  "name": "an-command",
   "description": "A simple command line tool",
+  "author": "hotpot",
+  "version": "0.1.2",
+  "private": false,
+  "license": "MIT",
   "bin": {
-    "an": "./bin/an"
+    "an": "./bin/an.js"
   },
+  "keywords": [
+    "node",
+    "command",
+    "tool",
+    "typescript",
+    "commander",
+    "command line"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/arctichotpot/an"
+  },
+  "homepage": "https://github.com/arctichotpot/an",
   "scripts": {
     "build": "tsc && npm link",
     "lint": "eslint . --ext .ts",
     "lint:fix": "eslint . --ext .ts --fix"
   },
-  "version": "0.0.1",
-  "private": false,
-  "license": "MIT",
   "devDependencies": {
     "@types/node": "^18.15.0",
     "ts-node": "^10.9.1",

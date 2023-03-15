@@ -22,6 +22,7 @@ async function loadPlugins(pluginPath: string): Promise<Plugin[]> {
     }
 
     return plugins;
+
 }
 // create CLI
 function createCLI(plugins: Plugin[]): commander.Command {

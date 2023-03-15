@@ -4,7 +4,6 @@
     "module": "commonjs",
     "resolveJsonModule": true,
     "strict": true,
-    "jsx": "preserve",
     "importHelpers": true,
     "moduleResolution": "node",
     "skipLibCheck": true,
@@ -12,9 +11,8 @@
     "allowSyntheticDefaultImports": true,
     "sourceMap": false,
     "baseUrl": ".",
-    "outDir": "./dist",
-    "declaration": false, // 是否生成声明文件
-    // "declarationDir": "./dist/type", // 声明文件打包的位置
+    "outDir": "./build",
+    "declaration": false,
     "lib": ["esnext", "dom", "dom.iterable", "scripthost"]
   },
   "exclude": ["node_modules"]
