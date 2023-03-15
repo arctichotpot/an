@@ -1,0 +1,11 @@
+.idea
+*.iml
+*.log
+npm-debug.log
+dist
+node_modules
+.DS_Store
+__tmp
+package-lock.json
+yarn.lock
+.vscode
